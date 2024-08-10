@@ -27,6 +27,6 @@ public class User {
     public User(String username, String password) {
         this.username = username;
         this.password = password;
-        this.role = "user";
+        this.role = "ROLE_ADMIN";
     }
 }
